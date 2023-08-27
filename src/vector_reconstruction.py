@@ -22,8 +22,7 @@ epochs = 100
 def vonMisesLoss(output, target):
     return torch.sum(1 - torch.exp(torch.cos(output - target))) 
 
-
-#     model.train()
+     model.train()
 #     for epoch in range(epochs):
 #         data = data.to(device)
 #         target = target.to(device)
